@@ -190,3 +190,29 @@ header .line {
     background-size: cover;
     background-position: center;
 }
+
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3--content {
+    padding: 230px 80px;
+    background-image: url('../images/bg2.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+.area3--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area3--img1 {
+    /*Usando grid para definir o espaço ocupado pela img1.*/
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url('../images/f5.jpg');
+    background-size: cover;
+    background-position: center;
+}
